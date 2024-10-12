@@ -65,6 +65,7 @@ table img {
    height: fit-content;
    float: right;
    text-align: left;
+   margin-left: 10px;
 }
 #carrito p {
    margin: 10px 0;

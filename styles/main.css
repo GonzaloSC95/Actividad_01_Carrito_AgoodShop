@@ -1,0 +1,121 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+.container {
+   width: 80%;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-shop {
+   display: flex;
+}
+h1 {
+   text-align: left;
+}
+.shop-header {
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 10px;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+}
+table, th, td {
+   border: 1px solid #ddd;
+}
+th, td {
+   padding: 15px;
+   text-align: left;
+}
+th {
+   background-color: #f2f2f2;
+}
+.quantity-controls {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.quantity-controls input {
+   width: 10%;
+   padding: 8px;
+   text-align: center;
+   margin: 0 10px;
+}
+table img {
+   width: 100px;
+   height: 100px;
+   padding-bottom: 20px;
+}
+#price-producto ,#contador-total-producto{
+   text-align: center;
+}
+
+/* Carrito */
+#carrito {
+   border: 1px solid #ddd;
+   padding: 20px;
+   background-color: #e2e2e2;
+   width: 30%;
+   height: fit-content;
+   float: right;
+   text-align: left;
+}
+#carrito p {
+   margin: 10px 0;
+}
+#carrito .carrito-botonera
+{
+   display: flex;
+}
+#carrito .carrito-botonera button {
+   margin-right: 10px;
+}
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/*Botones*/
+button {
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+.green-button {
+   background-color: #28a745;
+}
+.green-button:hover {
+    background-color: #218838; /* Color de fondo más oscuro al pasar el cursor */
+}
+.green-button:active {
+    background-color: #1e7e34; /* Color de fondo aún más oscuro al hacer clic */
+}
+.green-button:focus {
+    outline: none; /* Sin borde de enfoque */
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Sombra alrededor del botón al enfocarlo */
+}
+.red-button {
+   background-color: #a73728;
+}
+.red-button:hover {
+    background-color: #883621; /* Color de fondo más oscuro al pasar el cursor */
+}
+.red-button:active {
+    background-color: #af1d18; /* Color de fondo aún más oscuro al hacer clic */
+}
+.red-button:focus {
+    outline: none; /* Sin borde de enfoque */
+    box-shadow: 0 0 0 3px rgba(167, 59, 40, 0.5); /* Sombra alrededor del botón al enfocarlo */
+}

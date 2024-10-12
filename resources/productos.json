@@ -1,0 +1,47 @@
+{
+   "currency": "€",
+   "products": [
+      {
+         "SKU": "0K3QOSOV4V",
+         "title": "iPhone 13 Pro",
+         "price": "938.99",
+         "stock": 100,
+         "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+      },
+      {
+         "SKU": "TGD5XORY1L",
+         "title": "iPhone 14 Pro",
+         "price": "1029.00",
+         "stock": 100,
+         "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-14-pro-max-silver-202404?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1713200623079"
+      },
+      {
+         "SKU": "IOKW9BQ9F3",
+         "title": "Funda de piel",
+         "price": "44.80",
+         "stock": 100,
+         "image": "https://www.estilux.com/25847-large_default/mujjo-full-leather-funda-piel-iphone-15-pro-marron.jpg"
+      },
+      {
+         "SKU": "A1B2C3D4E5",
+         "title": "Auriculares Bluetooth",
+         "price": "14.99",
+         "stock": 100,
+         "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxWod3ybvLFRsP_R9VGfu5dk7TiyGMJZ3XqmKruzoyAd5ya5tGq6s63iLriafjRtAmTpZka7A1_h1p1dZVXUNDX2YybovBic2Xxlin-Oltu9a-_2p80imrmQ"
+      },
+      {
+         "SKU": "F6G7H8I9J0",
+         "title": "Teclado Mecánico",
+         "price": "47.99",
+         "stock": 100,
+         "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTf3k5hdk5wpuMAMZS6O4N7t_T9SyvWwBMPH23W7eibwCVB8oXepJbZXNVfwYMd3xXFbtIex-iTUB4MNciJIv-28z4Y_MMqxzU5Pp_3t4zYOnF1AMmNpPBTMpM"
+      },
+      {
+         "SKU": "K1L2M3N4O5",
+         "title": "iPhone 15",
+         "price": "859",
+         "stock": 100,
+         "image": "https://rossellimac.es/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__ESES_7b59d580-cd8e-4172-b303-1cb1426de558.jpg?v=1694605649"
+      }
+   ]
+}

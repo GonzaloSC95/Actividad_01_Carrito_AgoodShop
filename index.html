@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="media/carro-de-la-compra.png" type="image/x-icon">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/styles/main.css">
+   <title>AgoodShop</title>
+</head>
+<body>
+   <div class="container">
+    <h1 class="shop-header">AgoodShop</h1>
+    <div class="container-shop">
+        
+        <!-- Tabla de productos -->
+            <table id="productsTable">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Listado de Productos -->
+            </tbody>
+        </table>
+
+        <!-- Resumen total -->
+        <div id="carrito">
+            <h2>Carrito</h2>
+            <div id="caja-carrito">
+
+            </div>
+            <!-- Listado de Productos a comprar -->
+            <hr>
+            <p id="carrito-total"><strong></strong></p>
+            <div class="carrito-botonera"> 
+                <button id="carrito-botonera-si" class="green-button">Finalizar compra</button>
+                <button id="carrito-botonera-no" class="red-button">Cancelar compra</button>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+</body>
+<!-- Scripts -->
+<script type="module" src="scripts/main.js"></script>
+</html>

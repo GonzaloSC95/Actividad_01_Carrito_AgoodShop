@@ -3,7 +3,7 @@ import { Get, Put, Post } from './api.js';
 import Carrito from './Carrito.js';
 import Producto from "./producto.js";
 
-window.addEventListener( 'DOMContentLoaded', async () =>
+document.addEventListener( 'DOMContentLoaded', async () =>
 {
    //Inicializamos el carrito
    const carrito = new Carrito( [] );

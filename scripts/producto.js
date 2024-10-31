@@ -28,7 +28,7 @@ export default class Producto
       quantityCell.innerHTML = `
             <div class="quantity-controls">
                 <button id='restar-producto' class='red-button'>-</button>
-                <input id='contador-producto' type="text" value="0">
+                <input id='contador-producto' type="text" value="0" readonly>
                 <button id='sumar-producto' class='green-button'>+</button>
             </div>
         `;
